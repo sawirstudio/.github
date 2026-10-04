@@ -1,0 +1,37 @@
+[
+  {
+    "name": "sawirstudio/laravel-starter-kit",
+    "url": "https://github.com/sawirstudio/laravel-starter-kit",
+    "pushed_at": "2026-09-15T09:42:18Z",
+    "stars": 0,
+    "desc": "Sawir Studio's Laravel starter kit with strict typing, 100% test coverage, Pint, Rector, and PHPStan preconfigured."
+  },
+  {
+    "name": "sawirstudio/ember-prime-support",
+    "url": "https://github.com/sawirstudio/ember-prime-support",
+    "pushed_at": "2026-07-18T10:05:27Z",
+    "stars": 0,
+    "desc": "Support and documentation for the Ember Prime Shopify theme"
+  },
+  {
+    "name": "sawirstudio/sawirstudio.com",
+    "url": "https://github.com/sawirstudio/sawirstudio.com",
+    "pushed_at": "2026-06-26T08:29:17Z",
+    "stars": 0,
+    "desc": "Source for sawirstudio.com — AI & automation studio."
+  },
+  {
+    "name": "sawirstudio/streetgangwar",
+    "url": "https://github.com/sawirstudio/streetgangwar",
+    "pushed_at": "2026-01-15T14:42:16Z",
+    "stars": 0,
+    "desc": "mafia wars inspired game. My take on claude coding a game"
+  },
+  {
+    "name": "sawirstudio/effectphp",
+    "url": "https://github.com/sawirstudio/effectphp",
+    "pushed_at": "2026-01-11T15:24:22Z",
+    "stars": 3,
+    "desc": "Build Production ready applications with PHP"
+  }
+]

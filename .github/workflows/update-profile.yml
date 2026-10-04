@@ -1,0 +1,54 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "17 5 * * *"     # daily, 12:17 WIB (off the top of the hour)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:                   # re-render right away when the generator or its config changes
+      - "tools/profile/*.py"
+      - "tools/profile/config.json"
+      - "tools/profile/icons.json"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Fetch data
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}   # optional: adds private activity (counts only)
+          GITHUB_TOKEN: ${{ github.token }}             # fallback: public data only
+        run: uv run --no-project python tools/profile/fetch.py
+
+      # pinned so the embedded fonts stay byte-identical between runs
+      - name: Render SVGs
+        run: uv run --no-project --with fonttools==4.62.1 --with brotli==1.2.0 python tools/profile/render.py
+
+      - name: Update README
+        run: uv run --no-project python tools/profile/readme.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/profile/data profile/assets profile/README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Refresh profile stats"
+            git push
+          fi

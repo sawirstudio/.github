@@ -1,0 +1,156 @@
+{
+  "kind": "org",
+  "login": "sawirstudio",
+  "profile_repo": "sawirstudio/.github",
+  "readme_path": "profile/README.md",
+  "assets_dir": "profile/assets",
+  "asset_base": "https://raw.githubusercontent.com/sawirstudio/.github/main/profile/assets",
+  "all_repos_url": "https://github.com/orgs/sawirstudio/repositories",
+  "city_unit": "commits",
+  "recent_exclude": [
+    "sawirstudio/sawirstudio"
+  ],
+  "header": {
+    "bar_left": "SYS://SAWIR-STUDIO // NODE:HQ",
+    "name": "SAWIR STUDIO",
+    "lines": [
+      "AI & automation studio · Laravel, TypeScript, Python, Swift",
+      "shipping SaaS, iOS apps, games and open-source tools",
+      "founded by "
+    ],
+    "highlight": "RICARDO SAWIR",
+    "title": "Sawir Studio",
+    "desc": "AI and automation studio working in Laravel, TypeScript, Python and Swift. Shipping SaaS, iOS apps, games and open-source tools. Founded by Ricardo Sawir."
+  },
+  "links": [
+    {
+      "slug": "website",
+      "icon": "web",
+      "label": "Website",
+      "handle": "sawirstudio.com",
+      "url": "https://sawirstudio.com"
+    },
+    {
+      "slug": "founder",
+      "icon": "github",
+      "label": "Founder",
+      "handle": "@sawirricardo",
+      "url": "https://github.com/sawirricardo"
+    },
+    {
+      "slug": "x",
+      "icon": "x",
+      "label": "X",
+      "handle": "@RicardoSawir",
+      "url": "https://x.com/RicardoSawir"
+    },
+    {
+      "slug": "oca",
+      "icon": "github",
+      "label": "OCA",
+      "handle": "connector-shopify",
+      "url": "https://github.com/OCA/connector-shopify"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "laravel-starter-kit",
+      "name": "laravel-starter-kit",
+      "repo": "sawirstudio/laravel-starter-kit",
+      "url": "https://github.com/sawirstudio/laravel-starter-kit",
+      "tag": "STARTER KIT",
+      "tag_color": "green",
+      "stack": "PHP · Laravel · PHPStan · Rector",
+      "desc": "Laravel starter kit with strict typing, 100% test coverage, Pint, Rector and PHPStan preconfigured."
+    },
+    {
+      "slug": "effectphp",
+      "name": "effectphp",
+      "repo": "sawirstudio/effectphp",
+      "url": "https://github.com/sawirstudio/effectphp",
+      "tag": "LIBRARY",
+      "tag_color": "magenta",
+      "stack": "PHP · Effect-TS ideas",
+      "desc": "Build production-ready applications with PHP: typed errors, workflows and functional patterns."
+    },
+    {
+      "slug": "bunpush",
+      "name": "bunpush",
+      "repo": "sawirstudio/bunpush",
+      "url": "https://github.com/sawirstudio/bunpush",
+      "tag": "REALTIME",
+      "tag_color": "cyan",
+      "stack": "Bun · TypeScript · WebSocket",
+      "desc": "Realtime that doesn't make you sweat: speaks Pusher's API, so your existing client just works."
+    },
+    {
+      "slug": "connector-shopify",
+      "name": "connector-shopify",
+      "repo": "OCA/connector-shopify",
+      "url": "https://github.com/OCA/connector-shopify",
+      "tag": "NOW AT OCA",
+      "tag_color": "green",
+      "stack": "Python · Odoo 19 · Shopify API",
+      "desc": "Shopify <> Odoo connector, started here and now maintained under the Odoo Community Association."
+    },
+    {
+      "slug": "streetgangwar",
+      "name": "streetgangwar",
+      "repo": "sawirstudio/streetgangwar",
+      "url": "https://github.com/sawirstudio/streetgangwar",
+      "tag": "GAME",
+      "tag_color": "magenta",
+      "stack": "TypeScript · Claude-built",
+      "desc": "A Mafia Wars inspired game: our take on Claude coding a game."
+    },
+    {
+      "slug": "realworld-laravel",
+      "name": "realworld-laravel",
+      "repo": "sawirstudio/realworld-laravel",
+      "url": "https://github.com/sawirstudio/realworld-laravel",
+      "tag": "REALWORLD SPEC",
+      "tag_color": "cyan",
+      "stack": "PHP · Laravel",
+      "desc": "RealWorld (Medium.com clone) API implemented in Laravel. Also in FastAPI and Express."
+    }
+  ],
+  "stack": [
+    [
+      "languages",
+      [
+        "PHP",
+        "TypeScript",
+        "Python",
+        "Swift"
+      ]
+    ],
+    [
+      "frameworks",
+      [
+        "Laravel",
+        "Filament",
+        "Inertia",
+        "Odoo",
+        "Bun"
+      ]
+    ],
+    [
+      "front-end",
+      [
+        "React",
+        "Vue",
+        "Tailwind CSS",
+        "UIKit",
+        "Metal"
+      ]
+    ],
+    [
+      "infra",
+      [
+        "AWS",
+        "Docker",
+        "Cloudflare"
+      ]
+    ]
+  ]
+}
