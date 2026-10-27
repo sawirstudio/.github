@@ -5,8 +5,8 @@
   "stars": 7,
   "forks": 1,
   "repo_count": 13,
-  "private_count": 25,
-  "active_repos": 27,
+  "private_count": 26,
+  "active_repos": 28,
   "languages": {
     "TypeScript": 963504,
     "Python": 764237,
@@ -19,16 +19,16 @@
     "Dockerfile": 7828,
     "C#": 4974
   },
-  "commits_365": 2393,
-  "streak_current": 29,
-  "streak_longest": 89,
+  "commits_365": 2513,
+  "streak_current": 31,
+  "streak_longest": 91,
   "project_stars": {
     "sawirstudio/laravel-starter-kit": 0,
     "sawirstudio/effectphp": 3,
     "sawirstudio/bunpush": 2,
-    "OCA/connector-shopify": 4,
+    "OCA/connector-shopify": 5,
     "sawirstudio/streetgangwar": 0,
     "sawirstudio/realworld-laravel": 2
   },
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }
