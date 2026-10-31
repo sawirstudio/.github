@@ -19,16 +19,16 @@
     "Dockerfile": 7828,
     "C#": 4974
   },
-  "commits_365": 2559,
-  "streak_current": 34,
-  "streak_longest": 94,
+  "commits_365": 2565,
+  "streak_current": 35,
+  "streak_longest": 95,
   "project_stars": {
     "sawirstudio/laravel-starter-kit": 0,
     "sawirstudio/effectphp": 3,
     "sawirstudio/bunpush": 2,
-    "OCA/connector-shopify": 5,
+    "OCA/connector-shopify": 6,
     "sawirstudio/streetgangwar": 0,
     "sawirstudio/realworld-laravel": 2
   },
-  "updated": "2026-10-30"
+  "updated": "2026-10-31"
 }
