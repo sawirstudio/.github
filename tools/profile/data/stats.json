@@ -2,26 +2,30 @@
   "kind": "org",
   "created_at": "2025-03-09T04:55:42Z",
   "members": 1,
-  "stars": 7,
-  "forks": 1,
-  "repo_count": 13,
+  "stars": 19,
+  "forks": 3,
+  "repo_count": 16,
   "private_count": 28,
-  "active_repos": 30,
+  "active_repos": 33,
   "languages": {
     "TypeScript": 963504,
     "Python": 764237,
     "PHP": 391118,
     "Blade": 238246,
+    "Go": 95656,
+    "HTML": 86405,
     "Vue": 41027,
-    "HTML": 34185,
+    "JavaScript": 23917,
     "CSS": 19368,
-    "JavaScript": 7873,
     "Dockerfile": 7828,
-    "C#": 4974
+    "Shell": 5938,
+    "PowerShell": 5795,
+    "C#": 4974,
+    "Ruby": 1441
   },
-  "commits_365": 2787,
-  "streak_current": 40,
-  "streak_longest": 100,
+  "commits_365": 2864,
+  "streak_current": 41,
+  "streak_longest": 102,
   "project_stars": {
     "sawirstudio/laravel-starter-kit": 0,
     "sawirstudio/effectphp": 3,
@@ -30,5 +34,5 @@
     "sawirstudio/streetgangwar": 0,
     "sawirstudio/realworld-laravel": 2
   },
-  "updated": "2026-11-05"
+  "updated": "2026-11-06"
 }

@@ -1,5 +1,26 @@
 [
   {
+    "name": "sawirstudio/lazysvn",
+    "url": "https://github.com/sawirstudio/lazysvn",
+    "pushed_at": "2026-11-06T11:02:56Z",
+    "stars": 12,
+    "desc": "A lightweight, LazyGit-style terminal UI for Subversion (SVN)"
+  },
+  {
+    "name": "sawirstudio/scoop-bucket",
+    "url": "https://github.com/sawirstudio/scoop-bucket",
+    "pushed_at": "2026-11-06T11:02:26Z",
+    "stars": 0,
+    "desc": "Scoop bucket for lazysvn (manifests are published automatically by GoReleaser)"
+  },
+  {
+    "name": "sawirstudio/homebrew-tap",
+    "url": "https://github.com/sawirstudio/homebrew-tap",
+    "pushed_at": "2026-11-06T11:02:24Z",
+    "stars": 0,
+    "desc": "Homebrew tap for lazysvn (casks are published automatically by GoReleaser)"
+  },
+  {
     "name": "sawirstudio/laravel-starter-kit",
     "url": "https://github.com/sawirstudio/laravel-starter-kit",
     "pushed_at": "2026-09-15T09:42:18Z",
@@ -12,26 +33,5 @@
     "pushed_at": "2026-07-18T10:05:27Z",
     "stars": 0,
     "desc": "Support and documentation for the Ember Prime Shopify theme"
-  },
-  {
-    "name": "sawirstudio/sawirstudio.com",
-    "url": "https://github.com/sawirstudio/sawirstudio.com",
-    "pushed_at": "2026-06-26T08:29:17Z",
-    "stars": 0,
-    "desc": "Source for sawirstudio.com — AI & automation studio."
-  },
-  {
-    "name": "sawirstudio/streetgangwar",
-    "url": "https://github.com/sawirstudio/streetgangwar",
-    "pushed_at": "2026-01-15T14:42:16Z",
-    "stars": 0,
-    "desc": "mafia wars inspired game. My take on claude coding a game"
-  },
-  {
-    "name": "sawirstudio/effectphp",
-    "url": "https://github.com/sawirstudio/effectphp",
-    "pushed_at": "2026-01-11T15:24:22Z",
-    "stars": 3,
-    "desc": "Build Production ready applications with PHP"
   }
 ]
